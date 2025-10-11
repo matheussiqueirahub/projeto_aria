@@ -1,0 +1,12 @@
+# Diretórios e arquivos temporários
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados durante execuções
+logs/
+cache/
+
