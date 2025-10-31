@@ -29,7 +29,12 @@ O artigo documenta tecnicamente o processo de instalação e execução de jogos
 
 ## Visão Geral
 
-O objetivo principal é entregar um setup de Raspberry Pi otimizado para o RetroPie, reduzindo o tempo manual de configuração e eliminando erros comuns. O repositório atualmente contém o script oficial de instalação (`instalar_retropie_aria.sh`), responsável por:
+O objetivo principal é entregar um setup de Raspberry Pi otimizado para o RetroPie, reduzindo o tempo manual de configuração e eliminando erros comuns. Os scripts atualmente disponíveis incluem:
+
+- `scripts/instalar_retropie_aria.sh`: instalação completa do RetroPie com automações adicionais (detalhes abaixo).
+- `scripts/instalar_jogos_apt.sh`: instala rapidamente os títulos adotados no artigo A3 via repositórios APT oficiais.
+
+O instalador principal (`instalar_retropie_aria.sh`) é responsável por:
 
 - Executar limpeza preventiva de caches/processos que atrapalham a compilação do RetroPie.
 - Forçar a instalação/coleta de binários pré-compilados para agilizar o deploy.
@@ -44,6 +49,7 @@ O objetivo principal é entregar um setup de Raspberry Pi otimizado para o Retro
 .
 ├── README.md              # Este documento
 ├── scripts/
+│   ├── instalar_jogos_apt.sh      # Instalação dos jogos via apt (lista do artigo A3)
 │   └── instalar_retropie_aria.sh  # Script completo de instalação e automação
 └── .gitignore             # Regras para evitar arquivos temporários no versionamento
 ```
