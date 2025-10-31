@@ -2,6 +2,31 @@
 
 Automação de provisionamento do ambiente RetroPie para o Projeto Ária. Reúne os scripts operacionais utilizados na preparação das máquinas, com foco em reprodutibilidade, segurança e facilidade de manutenção.
 
+## Artigo Técnico (A3)
+
+**Instalação e Execução de Jogos no Raspberry Pi para Ambiente Educacional e de Entretenimento**
+
+- Alex Cabral Moreira da Silva – RA 13525120097
+- Alexsander Farias Da Silva – RA 13525123053
+- Geovanny Fernando da Penha Valentim – RA 1352221733
+- Higor Paiva de Brito – RA 13524123018
+- Matheus Henrique Dias Siqueira – RA 1352526420
+- Paulo Victor Nunes Saatmam – RA 1352511470
+
+O artigo documenta tecnicamente o processo de instalação e execução de jogos no Raspberry Pi, avaliando o uso em cenários educacionais e de entretenimento. O conteúdo completo está em `artigo/Projeto_Aria_A3.md`, que também indica a versão `.docx` a ser distribuída.
+
+### Jogos Instalados
+
+- SuperTux (Plataforma 2D)
+- SuperTuxKart (Corrida 3D)
+- Njam (Arcade)
+- Extreme Tux Racer (Corrida/Simulação)
+- OpenArena (FPS 3D)
+- Frozen-Bubble (Puzzle)
+- LBreakout2 (Arcade)
+- Chromium B.S.U. (Shooter vertical)
+- Snake4 (Clássico da cobrinha)
+
 ## Visão Geral
 
 O objetivo principal é entregar um setup de Raspberry Pi otimizado para o RetroPie, reduzindo o tempo manual de configuração e eliminando erros comuns. O repositório atualmente contém o script oficial de instalação (`instalar_retropie_aria.sh`), responsável por:
